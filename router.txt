@@ -1,0 +1,104 @@
+const express = require("express");
+const router = express.Router();
+const fs = require("fs");
+const path = require("path");
+
+// Updated to save files directly inside the Backend folder
+function saveJSON(fileName, data) {
+    fs.writeFileSync(
+        path.join(__dirname, fileName),
+        JSON.stringify(data, null, 4)
+    );
+}
+
+// Updated to read files directly from the Backend folder
+function readJSON(fileName) {
+    const filePath = path.join(__dirname, fileName);
+
+    if (!fs.existsSync(filePath)) {
+        fs.writeFileSync(filePath, "{}");
+    }
+
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+// Test Connection
+router.get("/test", (req, res) => {
+    res.json({
+        success: true,
+        message: "Server Connected"
+    });
+});
+
+// Signup
+router.post("/signup", (req, res) => {
+    saveJSON("signup.json", req.body);
+    res.json({
+        success: true,
+        message: "Signup Successful"
+    });
+});
+
+// Login
+router.post("/login", (req, res) => {
+    saveJSON("login.json", req.body);
+    res.json({
+        success: true,
+        message: "Login Successful",
+        user: req.body
+    });
+});
+
+// Store
+router.get("/store", (req, res) => {
+    const storeData = readJSON("store.json");
+    res.json(storeData);
+});
+
+// Cart
+router.post("/cart", (req, res) => {
+    saveJSON("cart.json", req.body);
+    res.json({
+        success: true,
+        message: "Cart Saved"
+    });
+});
+
+router.get("/cart/:userId", (req, res) => {
+    const cart = readJSON("cart.json");
+    res.json(cart);
+});
+
+// Checkout
+router.post("/checkout", (req, res) => {
+    saveJSON("checkout.json", req.body);
+    res.json({
+        success: true
+    });
+});
+
+// Payment
+router.post("/payment", (req, res) => {
+    saveJSON("payment.json", req.body);
+    res.json({
+        success: true
+    });
+});
+
+// Success
+router.post("/success", (req, res) => {
+    saveJSON("success.json", req.body);
+    res.json({
+        success: true
+    });
+});
+
+// Orders
+router.post("/orders", (req, res) => {
+    saveJSON("orders.json", req.body);
+    res.json({
+        success: true
+    });
+});
+
+module.exports = router;
