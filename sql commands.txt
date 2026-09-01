@@ -1,0 +1,166 @@
+ALTER LOGIN sa ENABLE;
+GO
+
+ALTER LOGIN sa WITH PASSWORD = 'YourStrongPassword123!';
+GO
+
+
+localhost command to run quiz application
+https://youtu.be/3JwUb3rf_eo?si=gUK30xGQbffko6wo
+
+
+
+https://www.isl.internship.indiaspaceweek.org/lms/project_instructions/
+https://www.isl.internship.indiaspaceweek.org/lms/project_instructions/
+https://www.isl.internship.indiaspaceweek.org/lms/project_instructions/
+
+
+ALTER LOGIN sa ENABLE;
+GO
+
+ALTER LOGIN sa WITH PASSWORD = 'YourStrongPassword123!';
+GO
+
+npx http-server -p 8080
+npx http-server -p 8080
+npx http-server -p 8080
+
+
+http://127.0.0.1:8081/index.html
+npx http-server
+
+
+cd C:\Users\ADMIN\Desktop\cansat
+PS C:\Users\ADMIN\Desktop\cansat> npx http-server "C:\Users\ADMIN\Desktop\cansat" -p 8080
+
+
+http://127.0.0.1:8081/index.html
+
+
+
+my-project/
+│
+├── server.js
+├── package.json
+├── package-lock.json
+├── db.js
+├── routes/
+│   └── users.js
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── .env
+
+
+https://hpanel.hostinger.com/domains
+https://hpanel.hostinger.com/domains
+https://hpanel.hostinger.com/domains
+
+
+PS D:\Monkeyz_website> cd D:\Monkeyz_website\frontend
+PS D:\Monkeyz_website\frontend> dir
+npx http-servers
+
+cd D:\Monkeyz_website\frontend
+dir
+npm install
+npm run dev
+npm install -g http-server
+npm install -g http-server
+npm install -g http-server
+ http-server  
+ npm install -g http-server 
+
+
+
+https://drive.google.com/drive/folders/1nti82JWhYjnxf3Oh8fEFRNVZ9dvaX_hS?usp=sharing
+https://drive.google.com/drive/folders/1nti82JWhYjnxf3Oh8fEFRNVZ9dvaX_hS?usp=sharing
+
+
+
+mongo db
+https://drive.google.com/drive/folders/1nti82JWhYjnxf3Oh8fEFRNVZ9dvaX_hS
+https://drive.google.com/drive/folders/1nti82JWhYjnxf3Oh8fEFRNVZ9dvaX_hS
+https://drive.google.com/drive/folders/1nti82JWhYjnxf3Oh8fEFRNVZ9dvaX_hS 
+
+
+Backend installation commands
+cd D:\Monkeyz_website\backend
+npm init -y
+npm install express
+node server.js
+
+
+Backend
+PS D:\Monkeyz_website\backend> 
+npm init -y
+npm install cors
+npm install cors
+cd D:\Monkeyz_website\backend
+node server.js
+
+
+PS D:\Monkeyz_website> cd D:\Monkeyz_website\backend
+PS D:\Monkeyz_website\backend> npm init -y
+Wrote to D:\Monkeyz_website\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
+
+
+PS D:\Monkeyz_website\backend> npm install express
+
+added 68 packages, and audited 69 packages in 7s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Monkeyz_website\backend> node server.js
+PS D:\Monkeyz_website\backend> cd D:\Monkeyz_website\backend
+PS D:\Monkeyz_website\backend> node server.js
+Server running at http://localhost:3000
+PS D:\Monkeyz_website\backend> ^C
+PS D:\Monkeyz_website\backend> npm install cors
+
+added 2 packages, and audited 71 packages in 2s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Monkeyz_website\backend> cd D:\Monkeyz_website\backend
+PS D:\Monkeyz_website\backend> node server.js
+Server running at http://localhost:3000
+
+
+app.use(cors());
+app.use(cors({
+    origin: "https://www.yourdomain.com"
+}));
+
+
+backend
+server.js
+cd path/to/Monkeyz_website/backend
+npm init -y
+npm install express
+node server.js
+http://localhost:3000
+
+
+Invoke-RestMethod -Uri "http://localhost:3000/api/login" `
+>> -Method POST `
+>> -Headers @{"Content-Type"="application/json"} `
+>> -Body '{"username":"nims","password":"12345"}'
+http://localhost:3000/api/test
